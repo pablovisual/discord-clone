@@ -1,0 +1,19 @@
+/*when hovering the channel it highlights it to show which one you are hovering*/
+.sidebarChannel:hover > h4 {
+    color: white;
+    background-color: #40464b;
+}
+
+.sidebarChannel > h4 {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #2f3135;
+    color: gray;
+    cursor: pointer;
+}
+
+.sidebarChannel_hash {
+    font-size: 30px;
+    padding: 8px;
+}
